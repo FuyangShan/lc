@@ -13,6 +13,7 @@
     * [1057. Campus Bike](campus-bikes.md)
     * [679. 24 Game](24-game.md)
     * [465. Optimal Account Balancing](optimal-account-balancing.md)
+    * [1055. Shortest Way to Form String](shortest-way-to-form-string.md)
 
 * [Introduction](README.md)
 
