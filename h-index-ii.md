@@ -1,3 +1,4 @@
+```java
 class Solution {
     public int hIndex(int[] citations) {
         if (citations == null || citations.length == 0) return 0;
@@ -14,3 +15,4 @@ class Solution {
         return n - lo;
     }
 }
+```

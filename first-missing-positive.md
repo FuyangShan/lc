@@ -6,6 +6,7 @@
 
 > Input: [1,2,0]
 > Output: 3
+
 > Example 2:
 
 > Input: [3,4,-1,1]
@@ -15,6 +16,7 @@
 
 > Input: [7,8,9,11,12]
 > Output: 1
+
 ```java
 class Solution {
     public int firstMissingPositive(int[] nums) {
