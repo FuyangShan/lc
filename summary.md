@@ -15,6 +15,9 @@
     * [465. Optimal Account Balancing](optimal-account-balancing.md)
     * [1055. Shortest Way to Form String](shortest-way-to-form-string.md)
     * [1197. Minimum Knight Moves](minimum-knight-moves.md)
+    * [489. Robot Room Cleaner](robot-room-cleaner.md)
+    * [359. Logger Rate Limiter](logger-rate-limiter.md)
+    * [1153. String Transforms Into Another String](string-transforms-into-another-string.md)
 
 * [Introduction](README.md)
 
@@ -35,7 +38,6 @@
 	* [162. Find Peak Element](find-peak-element.md)
     * [35. Search Insert Position](search-insertion-position.md)
     * [350. Intersection of Two Arrays II]()
-    * [315. Count of Smaller Numbers After Self]()
 
 * [LinkedList]()
     * [206. Reverse List](reverse-list.md)
@@ -89,7 +91,7 @@
     * [451. Sort Characters by Frequency](sort-characters-by-frequency.md)
     * [703. Kth Largest Element in Stream](kth-largest-element-in-a-stream.md)
     * [692. Top k frequent words](top-k-frequent-words.md)
-    * [961. N-RepeatedElements](n-repeated-element-in-size-2n-array)
+    * [961. N-RepeatedElements](n-repeated-element-in-size-2n-array.md)
     * [500. KeyBoardRow](keyboard-row.md)
     * [609. Find Duplicate File in System](find-duplicate-file-in-system.md)
     * [349. Intersection of Two Arrays](intersection-of-two-arrays.md)
@@ -269,7 +271,7 @@
 	* [306. Additive Number]()
 	* [343. Integer Break]()
 	* [396. Rotate Function]()
-	* [390. Elimination Game]()
+	* [390. Elimination Game](elimination-game.md)
 	* [357. Count Numbers with Unique Digits]()
 	* [360. Sort Transformed Array]()
 	* [397. Integer Replacement]()
@@ -454,13 +456,14 @@
     * [122. Best Time to Buy and Sell Stock II](best-time-to-buy-and-sell-stock-ii.md)
     * [123. Best Time to Buy and Sell Stock III](best-time-to-buy-and-sell-stock-iii.md)
     * [188. Best Time to Buy and Sell Stock IV](best-time-to-buy-and-sell-stock-iv.md)
-    * [309. Best Time to Buy and Sell Stock with CoolDown](best-time-to-buy-and-sell-stock-with-cooldown.md)
+    * [309. Best Time to Buy and Sell Stock with CoolDown](best-time-to-buy-and-sell-stock-with-cool-down.md)
     * [338. Counting Bits 没解决](counting-bits.md)
 
 * [DP Partition](dp-partition.md)
     * [91. Decode Ways](decode-ways.md)
     * [279. Perfect Squares](perfect-squares.md)
     * [221. Maximal Square](maximal-square.md)
+    * [221. Maximal Rectangle](maximal-rectangle.md)
     * [132. Permutation Partioning II](palindrome-partitioning-ii.md)
 
 * [DP Game](dp-game.md)
@@ -503,7 +506,7 @@
 * [DP Advanced](dp-advanced.md)
     * [403. Frog Jump](frog-jump.md)
     * [300. Longest Increasing Subsequence](longest-increasing-subsequence.md)
-    * [LN 91. Minimum Adjustment Cost](k-edit-distance.md)
+    * [LN 91. Minimum Adjustment Cost](minimum-adjustment-cost.md)
 	* [LN 89. K sum](k-sum.md)
     * [LN 623. K Edit Distance](k-edit-distance.md)
 
