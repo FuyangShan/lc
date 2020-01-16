@@ -1,5 +1,4 @@
 # Delete Nodes And Return Forest
-
 Given the root of a binary tree, each node in the tree has a distinct value.
 
 After deleting all nodes with a value in to_delete, we are left with a forest (a disjoint union of trees).
@@ -10,7 +9,7 @@ Return the roots of the trees in the remaining forest.  You may return the resul
 
 Example 1:
 
-![1110](https://assets.leetcode.com/uploads/2019/07/01/screen-shot-2019-07-01-at-53836-pm.png)
+
 
 Input: root = [1,2,3,4,5,6,7], to_delete = [3,5]
 Output: [[1,2,null,4],[6],[7]]
@@ -24,7 +23,6 @@ to_delete.length <= 1000
 to_delete contains distinct values between 1 and 1000.
 
 ```java
-
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,16 +33,36 @@ to_delete contains distinct values between 1 and 1000.
  * }
  */
 class Solution {
+    
+    HashSet<Integer> set;
+    List<TreeNode> res;
+    
     public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
-        // store <val, Node> for cache pointers to roots
-        HashMap<Integer, TreeNode> map = new HashMap<>();
-        map.put(root.val, root);
-
+        res = new ArrayList<>();
+        set = new HashSet<>();
         for (int i : to_delete) {
-            
+            set.add(i);
         }
+        DFS(root, true);
+        return res;
+        
+    }
 
+    // preorder traverse
+    // whether to add to list depends on:
+    // 1. if it's deleted -> if children are roots
+    // 2. if it's root <- if parent is deleted
+    // while traversing, we need to update the children status...
+    private TreeNode DFS(TreeNode node, boolean isRoot) {
+        if (node == null) return node;
+        boolean deleted = set.contains(node.val);
+        
+        if (isRoot && !deleted) res.add(node);
+        node.left = DFS(node.left, deleted);
+        node.right = DFS(node.right, deleted);
+        
+        return deleted ? null : node;
+        
     }
 }
-
-``
+```
