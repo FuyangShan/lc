@@ -57,7 +57,30 @@ class Solution {
             
         }
         return res;
-        
+    }
+}
+
+// Sliding window
+class Solution {
+    public String minWindow(String S, String T) {
+        int i = -1;
+        while (true) {
+            // match T from left to right, narrow the right boundary
+            for (char c : T.toCharArray()) {
+                // starting from next i
+                i = S.indexOf(c, i + 1);
+                if (i == -1) return res;
+            }
+            // mark the right boundary
+            int I = ++i;
+            // match T from right to left, narrow the left boundary
+            for (int j = T.length() - 1; j >= 0; j--) {
+                // starting from prev i
+                i = S.lastIndexOf(T.charAt(j), i - 1);
+            }
+            if (res == "" || res.length() > I - i) res = S.substring(i++, I);
+            // find next matches from next i
+        }
     }
 }
 ```
