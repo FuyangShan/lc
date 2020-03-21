@@ -1,12 +1,16 @@
-//Implement List
-//set();
-//get();
-//add(int index, E val);
-//add(E val);
-//remove(int index);
-//isEmpty();
-//size();
+# ArrayList
 
+- Implement List
+- set();
+- get();
+- add(int index, E val);
+- add(E val);
+- remove(int index);
+- isEmpty();
+- size();
+
+
+```java
 public class ArrayList<T> implements List {
     private T[] array; //the current maximum capacity is default 10;
     private int size; //the actual count of elements;
@@ -87,3 +91,4 @@ public class ArrayList<T> implements List {
         else return false;
     }
 }
+```

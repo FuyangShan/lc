@@ -4,6 +4,7 @@
 > yaoleaf@gmail.com
 
 
+* [Data Structure](basic.md)
 * [Binary Search](binary-search-intro.md)
 * [LinkedList]()
 * [List & Queue & Stack]()

@@ -1,12 +1,16 @@
-//Implement List
-//set();
-//get();
-//add(int index, E val);
-//add(E val);
-//remove(int index);
-//isEmpty();
-//size();
+# LinkedList
 
+- Implement List
+- set();
+- get();
+- add(int index, E val);
+- add(E val);
+- remove(int index);
+- isEmpty();
+- size();
+
+
+```java
 //Design a LinkedList with ListNode
 public class LinkedList<E>{
     private ListNode head;
@@ -88,3 +92,4 @@ public class LinkedList<E>{
         return size;
     }
 }
+```
