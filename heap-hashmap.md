@@ -1,0 +1,20 @@
+# Heap & HashMap
+
+
+* [268.Missing Number](missing-number.md)
+* [179. Largest Number](largest-number.md)
+* [215.Kth Smallest element in an Array](kth-largest-element-in-an-array.md)
+* [378.Kth Smallest Element in a Sorted Matrix](kth-smallest-element-in-a-sorted-matrix.md)
+* [347.Top K Frequent elements](top-k-frequent-elements.md)
+* [451. Sort Characters by Frequency](sort-characters-by-frequency.md)
+* [703. Kth Largest Element in Stream](kth-largest-element-in-a-stream.md)
+* [692. Top k frequent words](top-k-frequent-words.md)
+* [961. N-RepeatedElements](n-repeated-element-in-size-2n-array.md)
+* [500. KeyBoardRow](keyboard-row.md)
+* [609. Find Duplicate File in System](find-duplicate-file-in-system.md)
+* [349. Intersection of Two Arrays](intersection-of-two-arrays.md)
+* [313. Super Ugly Number]()
+* [373. Find K Pairs with Smallest Sums]()
+* [218. The Skyline Problem]()
+* [332. Reconstruct Itinerary]()
+* [341. Flatten Nested List Iterator]()

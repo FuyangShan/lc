@@ -3,6 +3,7 @@
 - 参考模版：
 - https://segmentfault.com/a/1190000016825704
 
+
 ```java
 // 标准模版
 class BinarySearch {
@@ -86,3 +87,22 @@ class Solution {
 
 
 ```
+
+### 代表例题
+
+* [374. Guess Number Higher or Lower](guess-number-higher-or-lower.md)
+* [278. Find the first bad version](first-bad-version.md)
+* [162.	Find Peak Element](find-peak-element.md)
+* [34. Find First and Last Position of Element in Sorted Array](find-first-and-last-position-of-element-in-sorted-array.md)
+* [33. Search in Rotated Sorted Array](search-in-rotated-sorted-array.md)
+* [81. Search in Rotated Sorted Array II](search-in-rotated-sorted-array-ii.md)
+* [69. sqrt(x)](sqrtx.md)
+* [153. Find Minimum in Rotated Sorted Array](find-minimum-in-rotated-sorted-array.md)
+* [154. Find Minimum in Rotated Sorted Array II](find-minimum-in-rotated-sorted-array-ii.md)
+* [475. Heaters](heaters.md)
+* [74. Search a 2D Matrix](search-a-2d-matrix.md)
+* [240. Search a 2D Matrix II](search-a-2d-matrix-ii.md)
+* [4. Median of Two Sorted Arrays](median-of-two-sorted-arrays.md)
+* [162. Find Peak Element](find-peak-element.md)
+* [35. Search Insert Position](search-insertion-position.md)
+* [350. Intersection of Two Arrays II]()

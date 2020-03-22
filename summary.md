@@ -6,13 +6,13 @@
 
 * [Basic Algorithm & Data Structure](basic.md)
 	* [Sort](sort-an-array.md)
-    * [ArrayList](_arraylist.md)
-    * [LinkedList](_linkedlist.md)
-    * [Stack](_stack.md)
-    * [Heap](_heap.md)
-    * [HashMap](_hashmap.md)
-    * [Tree](_tree.md)
-    * [Trie](_trie.md)
+    * [ArrayList](_ArrayList.md)
+    * [LinkedList](_LinkedList.md)
+    * [Stack](_Stack.md)
+    * [Heap](_Heap.md)
+    * [HashMap](_HashMap.md)
+    * [Tree](_Tree.md)
+    * [Trie](_Trie.md)
 
 * [Binary Search](binary-search-intro.md)
     * [374. Guess Number Higher or Lower](guess-number-higher-or-lower.md)
@@ -32,7 +32,7 @@
     * [35. Search Insert Position](search-insertion-position.md)
     * [350. Intersection of Two Arrays II]()
 
-* [LinkedList]()
+* [LinkedList](linkedlist-intro.md)
     * [206. Reverse List](reverse-list.md)
     * [92. Reverse Linked List II](reverse-linked-list-ii.md)
     * [24. Swap Pairs](swap-nodes-in-pairs.md)
@@ -57,7 +57,7 @@
     * [86. Partition List]()
     * [147. Insert sort list]()
 
-* [List & Queue & Stack]()
+* [List & Queue & Stack](queue-stack-intro.md)
     * [232.Implement Queue with Stacks](implement-queue-using-stacks.md)
     * [225. Implement Stack using Queue](implement-stack-using-queues.md)
     * [155. Min Stack](min-stack.md)
@@ -75,7 +75,7 @@
     * [385. Mini Parser]()
     * [84. Largest Rectangle in Histogram]()
 
-* [Heap & HashMap & HashSet]()
+* [Heap & HashMap & HashSet](heap-hashmap.md)
     * [268.Missing Number](missing-number.md)
     * [179. Largest Number](largest-number.md)
     * [215.Kth Smallest element in an Array](kth-largest-element-in-an-array.md)
@@ -93,8 +93,6 @@
     * [218. The Skyline Problem]()
     * [332. Reconstruct Itinerary]()
     * [341. Flatten Nested List Iterator]()
-
-* [Array](array.md)
 
 * [Array Manipulation](array-manipulation.md)
     * [27. Remove Element](remove-element.md)
@@ -213,7 +211,7 @@
 	* [187. Repeated DNA Sequences](repeated-dna-sequences.md)
 
 
-* [Bit Operation]()
+* [Bit Operation](bit-operation.md)
     * [191. Number of 1 bits](number-of-1-bits.md)
     * [136. Single Numbers I](single-number.md)
     * [260. Single Numbers II](single-number-ii.md)
@@ -229,7 +227,7 @@
     * [371. Sum of Two Integers]()
     * [338. Counting Bits]()
 
-* [Math]()
+* [Math](math.md)
 	* [12. Integer to Roman](integer-to-roman.md)
 	* [13. Roman to Integer](roman-to-integer.md)
 	* [172. Factorial Trailing Zeros](factorial-trailing-zeroes.md)
@@ -287,7 +285,7 @@
     * [75. Sort Colors]()
     * [143. Sort Colors II]()
 
-* [Tree]()
+* [Tree](tree.md)
     * [144. Binary Tree Preorder Traversal](binary-tree-preorder-traversal.md)
     * [94. Binary Tree Inorder Traversal](binary-tree-inorder-traversal.md)
     * [145. Binary Tree Postorder Traversal](binary-tree-postorder-traversal.md)
@@ -340,7 +338,7 @@
 	* [331. Verify Preorder Serialization of a Binary Tree]()
 
 
-* [BFS]()
+* [BFS](bfs.md)
     * [102. Binary Tree Level Order Traversal](binary-tree-level-order-traversal.md)
     * [103. Binary Tree Zigzag Level Order Traversal](binary-tree-zigzag-level-order-traversal.md)
     * [958. Check Completeness of a Binary Tree](check-completeness-of-a-binary-tree.md)
@@ -350,6 +348,8 @@
     * [310. Minimum Height Trees](minimum-height-trees.md)
     * [54. Spiral Matrix](spiral-matrix.md)
     * [59. Spiral Matrix II](spiral-matrix-ii.md)
+
+* [DFS](dfs.md)
 
 * [DFS Backtrack]()
     * [78. Subsets](subsets.md)
@@ -382,6 +382,8 @@
     * [133. Clone Graph](clone-graph.md)
     * [118. Pascal's Triangle](pascals-triangle.md)
     * [119. Pascal's Triangle II](pascals-triangle-ii.md)
+
+* [Graph](graph.md)    
 
 * [Graph 2D Grid]()    
     * [200. Number of Islands](number-of-islands.md)
@@ -416,7 +418,7 @@
 * [Graph Trie]()    
     * [208. Implement Trie (Prefix Tree)](implement-trie-prefix-tree.md)
     * [211. Add and Search Word - Data structure design](implement-trie-prefix-tree.md)
-    * [212. Word Search II](word-search-ii).md)
+    * [212. Word Search II](word-search-ii.md)
 	* [14. Longest Common Prefix](longest-common-prefix.md)
 
 
