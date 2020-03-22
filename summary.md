@@ -94,6 +94,8 @@
     * [332. Reconstruct Itinerary]()
     * [341. Flatten Nested List Iterator]()
 
+* [Array](array.md)
+
 * [Array Manipulation](array-manipulation.md)
     * [27. Remove Element](remove-element.md)
     * [26. Remove Duplicates from Sorted Array](remove-duplicates-from-sorted-array.md)
@@ -268,14 +270,14 @@
 	* [397. Integer Replacement]()
 	* [368. Largest Divisible Subset]()
 
-* [Random]()
+* [Random](random.md)
     * [380. Insert Delete GetRandom O(1)]()
     * [381. Insert Delete GetRandom O(1) - Duplicates allowed]()
     * [382. Linked List Random Node]()
     * [384. Shuffle an Array]()
     * [398. Random Pick Index]()
 
-* [Sort]()
+* [Sort](sort.md)
     * [969. Pancake Sorting](pancake-sorting.md)
     * [912. Sort an Array](sort-an-array.md)
     * [88. Merge Sorted Array]()
@@ -506,7 +508,7 @@
     * [LN 623. K Edit Distance](k-edit-distance.md)
 
 
-* [Data Structure Advanced]()
+* [Data Structure Advanced](data-struct-advanced.md)
     * [146. LRU Cache](lru-cache.md)
     * [460. LFU Cache](lfu-cache.md)
     * [588. Design In-Memory File System](design-in-memory-file-system.md)
