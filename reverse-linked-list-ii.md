@@ -7,25 +7,24 @@
 // 将之前记录的 n0 (head) → n3 (prev) 并且 n1 (n1) → n4 (curr)
 //  最终...→ n0 → n3 → n2 → n1 → n4 →...
 
-    public ListNode reverseBetween(ListNode head, int m, int n) {
-        if (head == null || head.next == null) return head;
-        ListNode dummy = new ListNode(0);
-        dummy.next = head;
-        head = dummy;
-        for (int i = 1; i < m; i++) {
-            head = head.next;
-        }
-        ListNode prev = head;
-        ListNode n1 = head.next, curr = head.next;
-        for (int j = m - 1; j < n; j++) {
-            ListNode temp = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = temp;
-        }
-        n1.next = curr;//之前记下的n1派上了用场
-        head.next = prev; //之前记下的head派上了用场
-        return dummy.next;
+public ListNode reverseBetween(ListNode head, int m, int n) {
+    if (head == null || head.next == null) return head;
+    ListNode dummy = new ListNode(0);
+    dummy.next = head;
+    head = dummy;
+    for (int i = 1; i < m; i++) {
+        head = head.next;
     }
+    ListNode prev = head;
+    ListNode n1 = head.next, curr = head.next;
+    for (int j = m - 1; j < n; j++) {
+        ListNode temp = curr.next;
+        curr.next = prev;
+        prev = curr;
+        curr = temp;
+    }
+    n1.next = curr;//之前记下的n1派上了用场
+    head.next = prev; //之前记下的head派上了用场
+    return dummy.next;
 }
 ```

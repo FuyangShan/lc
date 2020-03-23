@@ -28,7 +28,6 @@
     * [74. Search a 2D Matrix](search-a-2d-matrix.md)
     * [240. Search a 2D Matrix II](search-a-2d-matrix-ii.md)
 	* [4. Median of Two Sorted Arrays](median-of-two-sorted-arrays.md)
-	* [162. Find Peak Element](find-peak-element.md)
     * [35. Search Insert Position](search-insertion-position.md)
     * [350. Intersection of Two Arrays II]()
 
