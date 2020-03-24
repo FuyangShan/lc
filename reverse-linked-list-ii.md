@@ -1,4 +1,10 @@
 # 92. Reverse Linked List II
+https://leetcode.com/problems/reverse-linked-list-ii
+
+问题：给定了起始位置m和结束位置n，反转这个区间内的链表。
+
+思路：采用头插法，不断地把要反转的节点插到反转区间头节点的前面。重点就是记录第m个结点的前驱结点和第n个结点的后续结点。
+
 ```java
 // ... → n0 → n1 → n2 → n3 → n4 → ... → null 反转 n1 - n3
 // 创建dummy并设为head

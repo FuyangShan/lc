@@ -1,3 +1,10 @@
+# [25] Reverse Nodes in k-Group 每k个节点翻转
+https://leetcode.com/problems/reverse-nodes-in-k-group
+
+问题：将链表按每k个一组进行区间内翻转，Swap Nodes in Pairs其实是这道题k=2的特殊情况。
+
+思路：
+
 ```java
 //iteration
 class Solution {

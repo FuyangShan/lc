@@ -1,3 +1,11 @@
+# [142] Linked List Cycle II 找到环中的第一个节点
+https://leetcode.com/problems/linked-list-cycle-ii
+https://www.nowcoder.com/questionTerminal/253d2c59ec3e4bc68da16833f79a38e4
+
+问题：如果一个链表中包含环，请找出该链表的环的入口结点。
+
+思路：前面还是一样，让快慢指针同时走直到在环内相遇。接下来，让快指针回到链表的头部重新走，步长变成了1，那么当两者再次相遇的时候，就是环路的入口了。
+
 ```java
 //O →...→ 1 → 2
 //        |   |

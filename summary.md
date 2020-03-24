@@ -74,7 +74,7 @@
     * [385. Mini Parser]()
     * [84. Largest Rectangle in Histogram]()
 
-* [Heap & HashMap & HashSet](heap-hashmap.md)
+* [Heap & HashMap & HashSet](heap-hashmap-intro.md)
     * [268.Missing Number](missing-number.md)
     * [179. Largest Number](largest-number.md)
     * [215.Kth Smallest element in an Array](kth-largest-element-in-an-array.md)
@@ -93,9 +93,9 @@
     * [332. Reconstruct Itinerary]()
     * [341. Flatten Nested List Iterator]()
 
-* [Array](array.md)
+* [Array](array-intro.md)
 
-* [Array Manipulation](array-manipulation.md)
+* [Array Manipulation]()
     * [27. Remove Element](remove-element.md)
     * [26. Remove Duplicates from Sorted Array](remove-duplicates-from-sorted-array.md)
     * [80. Remove Duplicates from Sorted Array II](remove-duplicates-from-sorted-array-ii.md)
@@ -110,7 +110,7 @@
 	* [163. Missing Ranges](missing-ranges.md)
     * [23. Merge K Sorted Lists](merge-k-sorted-lists.md)
 
-* [Array State](array-state.md)
+* [Array State]()
 	* [277. Find the Celebrity](find-the-celebrity.md)
 	* [334. Increasing Triplet Subsequence](increasing-triplet-subsequence.md)
 	* [134. Gas Station](gas-station.md)
@@ -131,7 +131,7 @@
     * [15. Three Sum](three-sum.md)
     * [18. Four Sum](four-sum.md)
 	
-* [Array Bucket](array-bucket.md)
+* [Array Bucket]()
 	* [41. First Missing Positive](first-missing-positive.md)
 	* [274. H-Index](h-index.md)
 	* [275. H-Index II](h-index-ii.md)
@@ -139,7 +139,7 @@
 	* [442. Find All Duplicates in an Array](find-all-duplicates-in-an-array.md)
 	* [289. Game of Life](game-of-life.md)
 
-* [Array Prefix](array-prefix.md)
+* [Array Prefix]()
 	* [325. Maximum Size Subarray Sum Equals k](maximum-size-subarray-sum-equals-k.md)
 	* [209. Minimum Size Subarray Sum](minimum-size-subarray-sum.md)
 	* [238. Product of Array Except Self](product-of-array-except-self.md)
@@ -149,7 +149,9 @@
 	* [327. Count of Range Sum没解决](count-of-range-sum.md)
 	* [57. Insert Interval没解决](insert-interval.md)
 
-* [String](string.md)
+* [String](string-intro.md)
+
+* [String Basic]()
     * [8. String to Integer (atoi)](string-to-integer-atoi.md)
     * [28. Implement strStr](implement-strstr.md)
 	* [58. Length of Last Word](length-of-last-word.md)
@@ -186,7 +188,7 @@
 	* [387. First Unique Character in a String]()
 	* [383. Ransom Note]()
 
-* [String Sliding Window](sliding-window.md)
+* [String Sliding Window]()
 	* [395. Longest Substring with At Least K Repeating Characters](longest-substring-with-at-least-k-repeating-characters.md)
 	* [30. Substring with Concatenation of All Words](substring-with-concatenation-of-all-words.md)
     * [3. Longest Substring Without Repeating characters](longest-substring-without-repeating-characters.md)
@@ -197,7 +199,7 @@
     * [567. Permutation in String](permutation-in-string.md)
 	* [239. Sliding Window Maximum没解决]()
 
-* [String Palindrome](string-palindrome.md)
+* [String Palindrome]()
     * [125. Valid Palindrome](valid-palindrome.md)
     * [9. Palindrome Number](palindrome-number.md)
 	* [241. Different Ways to Add Parentheses](different-ways-to-add-parentheses.md)
@@ -212,7 +214,7 @@
 	* [187. Repeated DNA Sequences](repeated-dna-sequences.md)
 
 
-* [Bit Operation](bit-operation.md)
+* [Bit Operation](bit-operation-intro.md)
     * [191. Number of 1 bits](number-of-1-bits.md)
     * [136. Single Numbers I](single-number.md)
     * [260. Single Numbers II](single-number-ii.md)
@@ -228,7 +230,7 @@
     * [371. Sum of Two Integers]()
     * [338. Counting Bits]()
 
-* [Math](math.md)
+* [Math](math-intro.md)
 	* [12. Integer to Roman](integer-to-roman.md)
 	* [13. Roman to Integer](roman-to-integer.md)
 	* [172. Factorial Trailing Zeros](factorial-trailing-zeroes.md)
@@ -269,14 +271,14 @@
 	* [397. Integer Replacement]()
 	* [368. Largest Divisible Subset]()
 
-* [Random](random.md)
+* [Random](random-intro.md)
     * [380. Insert Delete GetRandom O(1)]()
     * [381. Insert Delete GetRandom O(1) - Duplicates allowed]()
     * [382. Linked List Random Node]()
     * [384. Shuffle an Array]()
     * [398. Random Pick Index]()
 
-* [Sort](sort.md)
+* [Sort](sort-intro.md)
     * [969. Pancake Sorting](pancake-sorting.md)
     * [912. Sort an Array](sort-an-array.md)
     * [88. Merge Sorted Array]()
@@ -286,7 +288,7 @@
     * [75. Sort Colors]()
     * [143. Sort Colors II]()
 
-* [Tree](tree.md)
+* [Tree](tree-intro.md)
     * [144. Binary Tree Preorder Traversal](binary-tree-preorder-traversal.md)
     * [94. Binary Tree Inorder Traversal](binary-tree-inorder-traversal.md)
     * [145. Binary Tree Postorder Traversal](binary-tree-postorder-traversal.md)
@@ -339,7 +341,7 @@
 	* [331. Verify Preorder Serialization of a Binary Tree]()
 
 
-* [BFS](bfs.md)
+* [BFS](bfs-intro.md)
     * [102. Binary Tree Level Order Traversal](binary-tree-level-order-traversal.md)
     * [103. Binary Tree Zigzag Level Order Traversal](binary-tree-zigzag-level-order-traversal.md)
     * [958. Check Completeness of a Binary Tree](check-completeness-of-a-binary-tree.md)
@@ -350,7 +352,7 @@
     * [54. Spiral Matrix](spiral-matrix.md)
     * [59. Spiral Matrix II](spiral-matrix-ii.md)
 
-* [DFS](dfs.md)
+* [DFS](dfs-intro.md)
 
 * [DFS Backtrack]()
     * [78. Subsets](subsets.md)
@@ -384,7 +386,7 @@
     * [118. Pascal's Triangle](pascals-triangle.md)
     * [119. Pascal's Triangle II](pascals-triangle-ii.md)
 
-* [Graph](graph.md)    
+* [Graph](graph-intro.md)    
 
 * [Graph 2D Grid]()    
     * [200. Number of Islands](number-of-islands.md)
@@ -423,7 +425,7 @@
 	* [14. Longest Common Prefix](longest-common-prefix.md)
 
 
-* [DP](dp-introduction.md)
+* [DP](dp-intro.md)
 
 * [DP Coordinate](dp-coordinate.md)
     * [55. Jump Game](jump-game.md)
@@ -507,7 +509,7 @@
     * [LN 623. K Edit Distance](k-edit-distance.md)
 
 
-* [Data Structure Advanced](data-struct-advanced.md)
+* [Data Structure Advanced](data-struct-advanced-intro.md)
     * [146. LRU Cache](lru-cache.md)
     * [460. LFU Cache](lfu-cache.md)
     * [588. Design In-Memory File System](design-in-memory-file-system.md)
