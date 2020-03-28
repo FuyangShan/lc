@@ -1,3 +1,11 @@
+# [155] Min Stack
+https://leetcode.com/problems/min-stack
+
+问题：设计一个能返回栈中最小值的栈结构。
+
+思路：考虑使用另一个辅助栈，用来存储[0..i]的最小值。
+
+
 ```java
 class MinStack {
     Stack<Integer> stack;

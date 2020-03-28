@@ -28,6 +28,26 @@ A.length is even
 ```java
 class Solution {
     public int repeatedNTimes(int[] A) {
+        int candidate1 = A[0];
+        int candidate2 = A[1];
+        
+        if (candidate1 == candidate2) return candidate1;
+        
+        for (int i = 2; i < A.length; i++) {
+            if (A[i] == candidate1 || A[i] == candidate2) {
+                return A[i];
+            } else {
+                candidate2 = A[i];
+                candidate1 = candidate2;
+            }
+        }    
+        return candidate1;
+    }
+}
+
+
+class Solution {
+    public int repeatedNTimes(int[] A) {
         Set setA = new HashSet();
         for (int i: A){
             setA.add(i);

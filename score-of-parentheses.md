@@ -24,6 +24,7 @@ Input: "(()(()))"
 Output: 6
 
 
+
 ```java
 class Solution {
     public int scoreOfParentheses(String S) {
