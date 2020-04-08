@@ -34,7 +34,6 @@
 * [DP]
     * [Max Of Min Altitude](max-of-min-altitude.md)
     * [Unique Paths II](unique-paths-ii.md)
-
     * [Rectangle overlap](rectangle-overlap.md)
 
 * [DFS]
