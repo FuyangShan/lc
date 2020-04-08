@@ -110,10 +110,11 @@ class Solution {
             4. if R > target, binary_search(R/2, R)
 - Time: O(log_2(n))
 - Follow up: why not expand 3 or 10 times?
->   | multiple | time_jump_out | time_jump_in |
->   |   2      |   log_2(n)    |  log_2(2n)   |
->   |   10     |   log_10(n)   |  log_2(10n)  |
->
+| multiple | time_jump_out | time_jump_in |
+| -------- | ------------- | ------------ |
+|   2      |   log_2(n)    |  log_2(2n)   |
+|   10     |   log_10(n)   |  log_2(10n)  |
+
 >   time_2 - time_10 = log_2(n) - log_10(n) + log_2(2n) - log_2(10n)
 >          n is large:         ~ 10000      +      -log_2(5) = -2.5                      
 >                    =   ~10000 > 0
