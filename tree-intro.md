@@ -1,5 +1,50 @@
 # Tree
 
+## Definition
+- Tree is an undirected graph in which any two vertices are connected by exactly one path, or equivalently a connected acyclic undirected graph
+
+### Binary Tree
+- For every node, at most two children without cycle -> DAG(directed acyclic graph)
+
+* Binary Tree 往往是最常见的，和recursion结合最紧密的面试题目类型
+* Reason:
+    - 每层的node具备的性质，专递的值和下一层的性质往往一致，比较容易定义recursive rule
+    - Base case（generally）：null pointer under the leaf node
+
+> Example: getTreeHeight(TreeNode root) 
+- Base case: root == null return 0
+- Return: Math.max(leftHeight, rightHeight);
+- Time: O(n)
+- Space: O(n)
+
+### Balanced Binary Tree
+> Example: isBalanced(TreeNode root)
+- if (leftHeight == -1 || rightHeight == -1 || Math.abs(leftHeight - rightHeight) > 1 ) 
+    return -1;
+- Base case: root == null 
+    return 0
+- Return: Math.max(leftHeight, rightHeight) + 1
+
+### Complete Binary Tree
+- For each level, except the last level, it should be filled completely, last level should be filled as left as possible
+
+### Full Binary Tree
+
+### Balanced Search Tree
+- For each node, ABS(left subtree height - right subtree height) <= 1
+
+
+## Tree Traversal
+
+### Pre-Order
+> For each node, do operations in order of: **cur, left, right**
+### In-Order
+> For each node, do operations in order of: **left, cur, right**
+### Post-Order
+> For each node, do operations in order of: **left, right, cur**
+
+
+
 
 * [144. Binary Tree Preorder Traversal](binary-tree-preorder-traversal.md)
 * [94. Binary Tree Inorder Traversal](binary-tree-inorder-traversal.md)

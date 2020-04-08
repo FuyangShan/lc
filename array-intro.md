@@ -1,5 +1,26 @@
 # Array
 
+## Classic Questions
+
+### Q1. Find the common numbers between two sorted arrays a[N], b[M], N, M
+
+S1: Binary Search
+	1. for each element X in the shorter array, we run a binary search in the longer array
+	Time O(m * log(n))  m <<< n
+	Space O(1)
+S2: Store targets in shorter array 
+	1. HashMap to store all elements from the shorter array, to optimize the space complexity
+	2. for each element in the longer array, we check if against the hashmap
+	Time O(m + n)
+	Space O(min(m + n))
+S3: two pointers
+	1. use i to point at M, use j to point at N
+	2. check i agains j
+	3. increment the smaller pointer
+	Time O(m + n)
+	Space O(1)
+
+## Question List
 
 * [Array Manipulation](array-manipulation.md)
     * [27. Remove Element](remove-element.md)

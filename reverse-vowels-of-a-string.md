@@ -34,7 +34,6 @@ class Solution {
                 l++;
                 r--;
             }
-
             
         }
         return String.valueOf(ans);

@@ -72,7 +72,6 @@
     * [921. MininumAddToMakeParenthesesValid](minimum-add-to-make-parentheses-valid.md)
     * [739. Daily Temperature](daily-temperatures.md)
     * [856. Score of Parentheses](score-of-parentheses.md)
-    * [394. Decode String](decode-string.md)
     * [71. Simplify Path](simplify-path.md)
     * [84. Largest Rectangle in Histogram](largest-rectangle-in-histogram.md)
     * [224. Basic Calculator](basic-calculator.md)
@@ -94,6 +93,16 @@
     * [373. Find K Pairs with Smallest Sums](find-k-pairs-with-smallest-sums.md)
     * [218. The Skyline Problem](the-skyline-problem.md)
     * [332. Reconstruct Itinerary](reconstruct-itinerary.md)
+    * [1086. High Five](high-five.md)
+    * [819. Most Common Word](most-common-word.md)
+    * [973. K Closest Points to Origin](k-closest-points-to-origin.md)
+    * [1268. Product Suggestions](search-suggestion-system.md)
+    * [937. Reorder Data in Log Files](reorder-data-in-log-files.md)
+    * [1167. Minimum Cost to Connect Sticks](minimum-cost-to-connect-sticks.md)
+
+
+
+
 
 * [Array](array-intro.md)
 
@@ -187,6 +196,8 @@
 	* [65. Valid Number](valid-number.md)
 	* [157. Read N Characters Given Read4](read-n-characters-given-read4.md)
 	* [158. Read N Characters Given Read4 II - Call multiple times](read-n-characters-given-read4-ii-call-multiple-times.md)
+    * [394. Decode String](decode-string.md)
+    * [726. Number of Atoms](number-of-atoms.md)
 	* [387. First Unique Character in a String]()
 	* [383. Ransom Note]()
 
@@ -199,13 +210,16 @@
     * [76. Minimum Substring](minimum-window-substring.md)
     * [209. Minimum Size Subarray Sum](minimum-size-subarray-sum.md)
     * [567. Permutation in String](permutation-in-string.md)
+    * [992. Subarrays with K Different Integers](subarrays-with-k-different-integers.md)
+    * [763. Partition Labels](partition-labels.md)
+
 	* [239. Sliding Window Maximum没解决]()
 
 * [String Palindrome]()
     * [125. Valid Palindrome](valid-palindrome.md)
     * [9. Palindrome Number](palindrome-number.md)
 	* [241. Different Ways to Add Parentheses](different-ways-to-add-parentheses.md)
-	* [5. Longest Palindromic Substring](longest-palindromic-subsequence.md)
+	* [5. Longest Palindromic Substring](longest-palindromic-substring.md)
 	* [214. Shortest Palindrome](shortest-palindrome.md)
 	* [336. Palindrome Pairs](palindrome-pairs.md)
 	* [266. Palindrome Permutation](palindrome-permutation.md)
@@ -214,6 +228,7 @@
 	* [301. Remove Invalid Parentheses](remove-invalid-parentheses.md)
 	* [392. Is Subsequence](is-subsequence.md)
 	* [187. Repeated DNA Sequences](repeated-dna-sequences.md)
+    * [1392. Longest Happy Prefix](longest-happy-prefix.md)    
 
 
 * [Bit Operation](bit-operation-intro.md)
@@ -223,6 +238,8 @@
     * [137. Single Numbers III](single-number-iii.md)
     * [190. Reverse Bits](reverse-bits.md)
     * [217. Contain Duplicate](contains-duplicate.md)
+    * [957. Prison Cells After N Days](prison-cells-after-n-days.md)
+
     * [219. Contain Duplicate II]()
     * [220. Contain Duplicate III]()
     * [89. Gray Code](gray-code.md)
@@ -289,6 +306,8 @@
     * [376. Wiggle Subsequence]()
     * [75. Sort Colors]()
     * [143. Sort Colors II]()
+    * [1051. Height Checker](height-checker.md)
+
 
 * [Tree](tree-intro.md)
     * [144. Binary Tree Preorder Traversal](binary-tree-preorder-traversal.md)
@@ -353,6 +372,11 @@
     * [310. Minimum Height Trees](minimum-height-trees.md)
     * [54. Spiral Matrix](spiral-matrix.md)
     * [59. Spiral Matrix II](spiral-matrix-ii.md)
+    * [944. Rotting oranges](rotting-oranges.md)
+    * [785. Is Graph Bipartite?](is-graph-bipartite.md)
+    * [787. Cheapest Flights Within K Stops](cheapest-flights-within-k-stops.md)
+
+
 
 * [DFS](dfs-intro.md)
 
@@ -471,7 +495,7 @@
     * [877. Stone Game](stone-game.md)
     * [810. Chalkboard XOR Game 没解决](chalkboard-xor-game.md)
     * [486. Predict the Winner 没解决](predict-the-winner.md)
-    * [464. Can I Win 没解决](can-i-win.md)
+    * [464. Can I Win](can-i-win.md)
     * [1025. Divisor Game 没解决](divisor-game.md)
 
 * [DP Backpack](dp-backpack.md)
@@ -489,7 +513,6 @@
     * [871. Minimum Number of Refueling Stops 没解决](minimum-number-of-refueling-stops.md)
 
 * [DP Interval](dp-interval.md)
-    * [5. Longest Palindromic Substring](longest-palindromic-substring.md)
     * [516. Longest Palindromic Subsequence](longest-palindromic-subsequence.md)
     * [877. Stone Game](stone-game.md)
     * [87. Scramble String](scramble-string.md)
@@ -502,6 +525,8 @@
     * [115. Distinct Subsequences](distinct-subsequences.md)
     * [10. Regular Expression Matching](regular-expression-matching.md)
     * [44. Wildcard Matching](wildcard-matching.md)
+    * [925. Long Pressed Name](long-pressed-name.md)
+
 
 * [DP Advanced](dp-advanced.md)
     * [403. Frog Jump](frog-jump.md)
@@ -542,3 +567,52 @@
     * [218. The Skyline Problem](the-skyline-problem.md)
     * [743. Network Delay Time](network-delay-time.md)
     * [1390. Four Divisors](four-divisors.md)
+
+* [Amazon OA Questions]()
+    * [Top K frequently mentioned keywords](top-k-frequently-mentioned-keywords.md)
+    * [High Five](high-five.md)
+    * [Most Common Word](most-common-word.md)
+    * [K Closest Points to Origin](k-closest-points-to-origin.md)
+    * [Product Suggestions](search-suggestion-system.md)
+    * [Favorite Genre](favorite-genre.md)
+    * [Reorder Data in Log Files](reorder-data-in-log-files.md)
+    * [Minimum Cost to Connect Sticks](minimum-cost-to-connect-sticks.md)
+
+    * [Two Sum](two-sum.md)
+    * [Two Sum Unique Pair](two-sum-unique-pair.md)
+    * [Optimal Utilization](optimal_utilization.md)
+    
+    * [Spiral Matrix II](spiral-matrix-ii.md)
+    * [Copy List with Random Pointer](copy-list-with-random-pointer.md)
+    * [Merge Two Sorted Lists](merge-two-sorted-lists.md)
+    * [SubTree of another Tree](subtree-of-another-tree.md)
+    * [Search a 2D Matrix II](search-a-2d-matrix-ii.md)
+    * [Max Of Min Altitude](max-of-min-altitude.md)
+    * [Rectangle overlap](rectangle-overlap.md)
+    * [Generate Parentheses](generate-parentheses.md)
+    * [Prison Cells After N Days](prison-cells-after-n-days.md)
+    * [Maximum Average Subtree](maximum-average-subtree.md)
+    * [Load Balancer](load-balancer.md)
+    * [Unique Paths II](unique-paths-ii.md)
+    * [Valid Parentheses](valid-parentheses.md)
+
+
+	* [Longest Palindromic Substring](longest-palindromic-substring.md)
+    * [Substrings of size K with K distinct chars](substrings-of-size-k-with-k-distinct-chars.md)
+    * [Subarrays with K Different Integers](subarrays-with-k-different-integers.md)
+    * [Partition Labels](partition-labels.md)
+
+    * [Treasure Island](treasure-island.md)
+    * [Treasure Island II](treasure-island-ii.md)
+    * [Zombie in Matrix](zombie-in-matrix.md)
+    * [Course Schedule II](course-schedule-ii.md)
+    * [Critical Routers](critical-routers.md)
+    * [Critical Connections](critical-connections.md)
+    * [Connecting Cities With Minimum Cost](connecting-cities-with-minimum-cost.md)
+    * [Min Cost to Connect All Nodes](min-cost-to-connect-all-nodes.md)
+    * [Cheapest Flights Within K Stops](cheapest-flights-within-k-stops.md)
+
+
+
+
+

@@ -66,7 +66,7 @@ class Solution {
             indegreeMap.put(key, count);
         }
     }
-    
+
     private Map<Integer, Set<Integer>> buildTrieAndMap(String[] words) {
         Map<Integer, Set<Integer>> map = new HashMap<>();
         TrieNode root = new TrieNode();

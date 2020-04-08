@@ -26,7 +26,7 @@
 > Output:
 > [
 > "pine apple pen apple",
-> "pineapple pen apple",
+> "pine apple pen apple",
 > "pine applepen apple"
 > ]
 > Explanation: Note that you are allowed to reuse a dictionary word.

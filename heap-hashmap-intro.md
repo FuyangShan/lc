@@ -1,5 +1,34 @@
 # Heap & HashMap
 
+## Heap 优先队列 PriorityQueue
+- Complete Tree
+- Unsorted array
+
+- Complexity
+    1. Get top -> O(1)
+    2. Heapify -> O(n) heapify an array
+    3. Insert -> O(logn)
+    4. Poll -> O(logn)
+    5. Update -> O(logn) find and set value
+
+### 1. Find smallest k elements from an unsorted array of size n
+- Compare K and N
+- Solution1: Sort array and get [0, K)
+    - O(NlogN)
+- Solution2: Builder a minHeap, and get [0,K)
+    - O(N + KlogN)
+- Solution3: Maintain a size K maxHeap, and get all remaining elements in pq
+    - O(K + (N - k)logK)
+- Solution4: Quick Partition
+    - O(n) ~ O(n^2)
+
+## HashMap 的实现原理
+HashMap 是典型的空间换时间的一种技术手段。
+
+- 如何解决 hash 冲突
+- loadFactor 等核心概念
+- 扩容机制
+
 HashMap Source Code Analysis: https://www.jianshu.com/p/b40fd341711e
 
 ## 例题
@@ -19,15 +48,6 @@ HashMap Source Code Analysis: https://www.jianshu.com/p/b40fd341711e
 * [373. Find K Pairs with Smallest Sums](find-k-pairs-with-smallest-sums.md)
 * [218. The Skyline Problem](the-skyline-problem.md)
 * [332. Reconstruct Itinerary](reconstruct-itinerary.md)
-
-
-
-## HashMap 的实现原理
-HashMap 是典型的空间换时间的一种技术手段。
-
-- 如何解决 hash 冲突
-- loadFactor 等核心概念
-- 扩容机制
 
 ## 构造函数中 initialCapacity 与 loadFactor 两个参数
 HashMap(int initialCapacity, float loadFactor)：构造一个指定容量和加载因子的空 HashMap

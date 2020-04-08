@@ -2,34 +2,56 @@
 // Topo Sort
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        if (numCourses == 0) return new int[]{}; // corner case
-        int[] indegree = new int[numCourses]; // how many pre is required for the course;
-        int[] order = new int[numCourses]; // order of number of course;
-        int index = 0;
-        Queue<Integer> q = new LinkedList<>(); // Queue to store non pre-required course;
-        for (int i = 0; i < prerequisites.length; i++){
-            indegree[prerequisites[i][0]]++; // in the pre requirements, add 1 if the course need 1 another pre;
+
+        Map<Integer, List<Integer>> graph = new HashMap<Integer, List<Integer>>();
+        int[] indegree = new int[numCourses];
+        int[] path = new int[numCourses];
+
+        // Create the adjacency list representation of the graph
+        for (int i = 0; i < prerequisites.length; i++) {
+            int course = prerequisites[i][0];
+            int pre = prerequisites[i][1];
+            List<Integer> list = graph.getOrDefault(pre, new ArrayList<Integer>());
+            list.add(course);
+            graph.put(pre, list);
+
+            // Record in-degree of each vertex
+            indegree[course] += 1;
         }
-        
-        for (int i = 0; i < numCourses; i++){
-            if (indegree[i] == 0){
-                order[index++] = i; // Add the non pre-required course to the order;
-                q.add(i); // add the number of the non pre-requried course to Queue;
+
+        // Add all vertices with 0 in-degree to the queue
+        Queue<Integer> q = new LinkedList<Integer>();
+        for (int i = 0; i < numCourses; i++) {
+            if (indegree[i] == 0) {
+                q.add(i);
             }
         }
-        while (!q.isEmpty()){
-            int pre = q.poll(); // the current 1st completed course from non pre-required course Queue;
-            for (int i = 0; i < prerequisites.length; i++){
-                if (prerequisites[i][1] == pre){ // from the pre requirement list, find the course needing "pre" as pre;
-                    indegree[prerequisites[i][0]]--; // Completed one for pre for course;
-                    if (indegree[prerequisites[i][0]] == 0){ // if all pre are completed for the course;
-                        order[index++] = prerequisites[i][0]; // add the completed course to order
-                        q.add(prerequisites[i][0]); // add the completed course to non pre-required  course list.
+
+        int i = 0;
+        // Process until the Q becomes empty
+        while (!q.isEmpty()) {
+            int node = q.remove();
+            path[i++] = node;
+
+            // Reduce the in-degree of each neighbor by 1
+            if (graph.containsKey(node)) {
+                for (Integer neighbor : graph.get(node)) {
+                    indegree[neighbor]--;
+
+                    // If in-degree of a neighbor becomes 0, add it to the Q
+                    if (indegree[neighbor] == 0) {
+                        q.add(neighbor);
                     }
                 }
-            } // when all non pre-required courses are completed, exit while.
+            }
         }
-        return (index==numCourses)? order: new int[0]; // if all courses has been completed, then the order contains all courses in order
+
+        // Check to see if topological sort is possible or not.
+        if (i == numCourses) {
+            return path;
+        }
+
+        return new int[0];
     }
 }
 ```

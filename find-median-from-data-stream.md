@@ -1,3 +1,4 @@
+```java
 class MedianFinder {
 
     private PriorityQueue<Integer> left; //maxHeap
@@ -35,3 +36,4 @@ class MedianFinder {
         }
     }
 }
+```

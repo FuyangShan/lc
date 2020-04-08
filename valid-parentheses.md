@@ -33,21 +33,23 @@ Output: true
 问题：给定一个字符串，判断括号匹配是否成立。
 
 ```java
-// class Solution {
-//     public boolean isValid(String s) {
-//         HashMap<Character,Character> map = new HashMap<>();
-//         map.put('(',')');
-//         map.put('[',']');
-//         map.put('{','}');
-//         Stack<Character> stack = new Stack<>();
-//         for (char c:s.toCharArray()){
-//             if (c == '(' || c == '[' || c == '{') stack.push(map.get(c));
-//             else if (stack.isEmpty() || stack.pop() != c) return false;
-//         }    
-//         return stack.isEmpty();
-//     }
-// }
+class Solution {
+    public boolean isValid(String s) {
+        HashMap<Character,Character> map = new HashMap<>();
+        map.put('(',')');
+        map.put('[',']');
+        map.put('{','}');
+        Stack<Character> stack = new Stack<>();
+        for (char c:s.toCharArray()){
+            if (c == '(' || c == '[' || c == '{') stack.push(map.get(c));
+            else if (stack.isEmpty() || stack.pop() != c) return false;
+        }    
+        return stack.isEmpty();
+    }
+}
+```
 
+```java
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();

@@ -1,3 +1,4 @@
+```java
 // Input: s = "++++"
 // Output: 
 // [
@@ -19,3 +20,4 @@ class Solution {
         return res;
     }
 }
+```

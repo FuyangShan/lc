@@ -1,27 +1,32 @@
 ```java
 // DFS Backtrack
+/*
+    for each step, we can choose either generate a ( or a )
+    so we can keep generating until either :
+        1. we got a invalid result
+        2. we got a valid result with 2n length solution, add to result
+*/
+
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> res = new ArrayList<>();
-        if (n <= 0) return res;
-        DFS(res, new StringBuilder(), n, 0, 0);
+        int l = 0, r = 0;
+        generate(n, l, r, new StringBuilder(), res);
         return res;
     }
-    private void DFS(List<String> res, StringBuilder sb, int n, int left, int right) {
-        if (sb.length() == n * 2) {
+    public void generate(int n, int l, int r, StringBuilder sb, List<String> res) {
+        if (l < r || l > n) return;
+        if (l + r == n * 2) {
             res.add(sb.toString());
-        } else {
-            if (left < n) {
-                sb.append("(");
-                DFS(res, sb, n, left + 1, right);
-                sb.deleteCharAt(sb.length() - 1);
-            } 
-            if (left > right) {
-                sb.append(")");
-                DFS(res, sb, n, left, right + 1);
-                sb.deleteCharAt(sb.length() - 1);
-            }
-        }
+            return;
+        } 
+        sb.append("(");
+        generate(n, l + 1, r, sb, res);
+        sb.deleteCharAt(sb.length() - 1);
+
+        sb.append(")");
+        generate(n, l, r + 1, sb, res);
+        sb.deleteCharAt(sb.length() - 1);
     }
 }
 ```

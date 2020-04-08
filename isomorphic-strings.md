@@ -1,3 +1,4 @@
+```java
 public class Solution {
     public boolean isIsomorphic(String s1, String s2) {
         int[] m = new int[512];
@@ -8,3 +9,4 @@ public class Solution {
         return true;
     }
 }
+```

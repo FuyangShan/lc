@@ -27,7 +27,7 @@ class Solution {
         int right = (m + n + 2) / 2;
         return (getKth(A, 0, B, 0, left) + getKth(A, 0, B, 0, right)) / 2.0;
     }
-    private int getKth(int[] A, int aStart, int[] B, int bStart, int k) {
+    private int getKth(int[] A, int aStart, int[] B, int bStart, int k) { // kth element in merged list
 
         //base case: A is exhausted or B is exhausted, return the index k - 1 of other array, starting from "start"
         if (aStart >= A.length) return B[bStart + k - 1];
@@ -52,7 +52,7 @@ class Solution {
         // recursive see the following:
         // x x x aVal x x x ...
         //    o o o bVal o o o ...
-        if (aVal < bVal) return getKth(A, aMid + 1, B, bStart, k - k / 2);
+        if (aVal < bVal) return getKth(A, aMid + 1, B, bStart, k - k / 2); 
         else return getKth(A, aStart, B, bMid + 1, k - k / 2);
     }
 }

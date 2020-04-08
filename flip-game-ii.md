@@ -1,3 +1,4 @@
+```java
 class Solution {
     
     HashMap<String, Boolean> map = new HashMap<>();
@@ -29,3 +30,4 @@ class Solution {
         return false;
     }
 }
+```

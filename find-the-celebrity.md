@@ -35,8 +35,8 @@ public class Solution extends Relation {
         int candidate = 0;
         for (int i = 1; i < n; i++) {
 			// exclude candidate from 0 ~ n 
-			// if someone is known, he/she is not candidate
-			// if someone is not known, he/she is candidate
+			// if someone is known, he/she is candidate
+			// if someone is not known, he/she is not candidate
             if (knows(candidate, i))
                 candidate = i;
         }

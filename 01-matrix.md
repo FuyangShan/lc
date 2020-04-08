@@ -15,7 +15,7 @@ class Solution {
         return matrix;
     }
     public void dfs(int[][] matrix, int i, int j, int distance){
-        if (i < 0|| j < 0|| i >= matrix.length|| j >= matrix[0].length|| matrix[i][j] < distance) return;
+        if (i < 0 || j < 0|| i >= matrix.length|| j >= matrix[0].length|| matrix[i][j] < distance) return;
         matrix[i][j] = distance;
         dfs(matrix, i + 1, j, distance + 1);
         dfs(matrix, i - 1, j, distance + 1);
