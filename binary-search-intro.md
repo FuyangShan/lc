@@ -1,9 +1,8 @@
 # Binary Search
 
-- 参考模版：
-- https://segmentfault.com/a/1190000016825704
-
-
+> 参考模版：
+>
+> https://segmentfault.com/a/1190000016825704
 
 ## 1. Find the index of element in sorted array, if not found, return -1
 ```java
@@ -116,8 +115,8 @@ class Solution {
 |   10     |   log_10(n)   |  log_2(10n)  |
 
 >   time_2 - time_10 = log_2(n) - log_10(n) + log_2(2n) - log_2(10n)
->          n is large:         ~ 10000      +      -log_2(5) = -2.5                      
->                    =   ~10000 > 0
+>          n is large:             ~ 10000      +      -log_2(5) = -2.5                      
+>                                  =   ~10000 > 0
 >   time_2 > time_10 -> "10 times" is better/faster
 
 ## 6. Find the smallest element in rotated sorted array
@@ -140,17 +139,13 @@ class Solution {
         return nums[left] == target ? left : -1;
     }
 }
-
-
-
-
 ```
 
 ### 代表例题
 
 * [374. Guess Number Higher or Lower](guess-number-higher-or-lower.md)
 * [278. Find the first bad version](first-bad-version.md)
-* [162.	Find Peak Element](find-peak-element.md)
+* [162. Find Peak Element](find-peak-element.md)
 * [34. Find First and Last Position of Element in Sorted Array](find-first-and-last-position-of-element-in-sorted-array.md)
 * [33. Search in Rotated Sorted Array](search-in-rotated-sorted-array.md)
 * [81. Search in Rotated Sorted Array II](search-in-rotated-sorted-array-ii.md)
